@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="container">
+            <h1>REGISTRATION FORM</h1>
+            <div class="line">
+                <div class="line1"></div>
+            </div>
+            <form id="form">
+                <input type="text" placeholder="First Name" id="inp1">
+                <input type="text" placeholder="Last Name" id="inp2">
+                <input type="text" placeholder="Email" id="inp3">
+                <input type="password" placeholder="Password" id="inp4">
+                <input type="date" placeholder="Date of Birth" id="dob">
+                <select id="country">
+                    <option value="">Select Country</option>
+                    <option value="USA">USA</option>
+                    <option value="UK">UK</option>
+                    <option value="Canada">Canada</option>
+                    <option value="Australia">Australia</option>
+                    <option value="Pakistan">Pakistan</option>
+                    <option value="India">India</option>
+                    <option value="Bangladesh">Bangladesh</option>
+                    <option value="England">England</option>
+                    <option value="Other">Other</option>
+                </select>
+                <button onclick="Submit(event)">Register</button>
+            </form>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
